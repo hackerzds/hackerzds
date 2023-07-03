@@ -17,7 +17,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snk.svg
       - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@latest
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
